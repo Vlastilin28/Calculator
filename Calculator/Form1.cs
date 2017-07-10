@@ -20,27 +20,10 @@ namespace Calculator
         {
             double numberone = Convert.ToDouble(textBox_enterone.Text);
             double numbertwo = Convert.ToDouble(textBox_entertwo.Text);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "button_plus":
-                    result = numberone + numbertwo;
-                    break;
-                case "button_minus":
-                    result = numberone - numbertwo;
-                    break;
-                case "button_multiply":
-                    result = numberone * numbertwo;
-                    break;
-                case "button_divide":
-                    result = numberone / numbertwo;
-                    
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
-
+            var calc = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calc.Calculate(numberone, numbertwo);
             label1.Text = Convert.ToString(result);
         }
+
     }
 }
