@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Calculator.TwoArguments
+namespace Calculator.TwoArgument
 {
     public static class TwoArgumentsFactory
     {
@@ -16,6 +16,12 @@ namespace Calculator.TwoArguments
                     return new Multiplication();
                 case "button_divide":
                     return new Division();
+                case "xToPower":
+                    return new xToPower();
+                case "xTo1mY":
+                    return new XToPowerOfInverseY();
+                case "Average":
+                    return new Average();
                 default:
                     throw new Exception("Warning");
             }

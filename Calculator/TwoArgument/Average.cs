@@ -1,10 +1,10 @@
 ﻿namespace Calculator.TwoArgument
 {
-    public class Multiplication:ITwoArgumentsCalculator
+    public class Average : ITwoArgumentsCalculator
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
-            return firstArgument * secondArgument;
+            return (firstArgument + secondArgument) / 2;
         }
     }
 }

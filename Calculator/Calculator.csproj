@@ -46,26 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TwoArguments\Addtion.cs" />
-    <Compile Include="TwoArguments\Division.cs" />
+    <Compile Include="TwoArgument\Average.cs" />
+    <Compile Include="OneArgument\DivisionOnOne.cs" />
+    <Compile Include="OneArgument\Cosinus.cs" />
+    <Compile Include="TwoArgument\TenPower.cs" />
+    <Compile Include="TwoArgument\Addtion.cs" />
+    <Compile Include="TwoArgument\Division.cs" />
     <Compile Include="OneArgument\exponent.cs" />
     <Compile Include="OneArgument\foursquare.cs" />
     <Compile Include="OneArgument\IOneArgumentCalculator.cs" />
     <Compile Include="OneArgument\Logarithm.cs" />
     <Compile Include="OneArgument\OneArgumentFactory.cs" />
     <Compile Include="OneArgument\Sinus.cs" />
-    <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
+    <Compile Include="TwoArgument\TwoArgumentsFactory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="TwoArguments\ITwoArgumentsCalculator.cs" />
-    <Compile Include="TwoArguments\Multiplication.cs" />
+    <Compile Include="TwoArgument\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArgument\Multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwoArguments\subtraction.cs" />
+    <Compile Include="TwoArgument\subtraction.cs" />
+    <Compile Include="TwoArgument\xToPower.cs" />
+    <Compile Include="TwoArgument\XToPowerOfInverseY.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using Calculator.OneArgument;
-using Calculator.TwoArguments;
+using Calculator.TwoArgument;
 
 namespace Calculator
 {
@@ -22,10 +22,11 @@ namespace Calculator
 
         private void OneClick(object sender, EventArgs e)
         {
-            double nubmerThree = Convert.ToDouble(textBox_enterthree.Text);
-            var calc2 = OneArgumentFactory.CreateCalculator2(((Button)sender).Name);
-            double result2 = calc2.Calculate2(nubmerThree);
-            label2.Text = Convert.ToString(result2);
+            double nubmerThree = Convert.ToDouble(textBox_enterone.Text);
+            var calc = OneArgumentFactory.CreateCalculator2(((Button)sender).Name);
+            double result = calc.Calculate2(nubmerThree);
+            label2.Text = Convert.ToString(result);
+            
         }
     }
 }

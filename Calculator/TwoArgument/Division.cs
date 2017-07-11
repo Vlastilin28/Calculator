@@ -1,4 +1,4 @@
-﻿namespace Calculator.TwoArguments
+﻿namespace Calculator.TwoArgument
 {
     public class Division : ITwoArgumentsCalculator
     {

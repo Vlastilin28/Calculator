@@ -1,4 +1,5 @@
 ﻿using System;
+using Calculator.TwoArgument;
 
 namespace Calculator.OneArgument
 {
@@ -16,6 +17,12 @@ namespace Calculator.OneArgument
                     return new Exponent();
                 case "foursquare":
                     return new Foursquare();
+                case "Cosinus":
+                    return new Cosinus();
+                case "DivisionOnOne":
+                    return new DivisionOnOne();
+                case "TenPower":
+                    return new TenPower();
                 default:
                     throw new Exception("Warning");
             }
