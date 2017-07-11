@@ -46,20 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addtion.cs" />
-    <Compile Include="Division.cs" />
-    <Compile Include="TwoArgumentsFactory.cs" />
+    <Compile Include="TwoArguments\Addtion.cs" />
+    <Compile Include="TwoArguments\Division.cs" />
+    <Compile Include="OneArgument\exponent.cs" />
+    <Compile Include="OneArgument\foursquare.cs" />
+    <Compile Include="OneArgument\IOneArgumentCalculator.cs" />
+    <Compile Include="OneArgument\Logarithm.cs" />
+    <Compile Include="OneArgument\OneArgumentFactory.cs" />
+    <Compile Include="OneArgument\Sinus.cs" />
+    <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ITwoArgumentsCalculator.cs" />
-    <Compile Include="Multiplication.cs" />
+    <Compile Include="TwoArguments\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArguments\Multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="subtraction.cs" />
+    <Compile Include="TwoArguments\subtraction.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
