@@ -2,7 +2,7 @@
 {
     public class DivisionOnOne : IOneArgumentCalculator
     {
-        public double Calculate2(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             return 1 / firstArgument;
         }

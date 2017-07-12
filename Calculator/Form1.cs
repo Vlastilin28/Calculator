@@ -19,14 +19,12 @@ namespace Calculator
             double result = calc.Calculate(numberOne, numberTwo);
             label1.Text = Convert.ToString(result);
         }
-
         private void OneClick(object sender, EventArgs e)
         {
             double nubmerThree = Convert.ToDouble(textBox_enterone.Text);
-            var calc = OneArgumentFactory.CreateCalculator2(((Button)sender).Name);
-            double result = calc.Calculate2(nubmerThree);
+            var calc = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = calc.Calculate(nubmerThree);
             label2.Text = Convert.ToString(result);
-            
         }
     }
 }

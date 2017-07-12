@@ -2,11 +2,11 @@
 
 namespace Calculator.OneArgument
 {
-    public class Logarithm : IOneArgumentCalculator
+    public class TenPower : IOneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {
-            return Math.Log10(firstArgument);
+            return Math.Pow(10,firstArgument);
         }
     }
 }

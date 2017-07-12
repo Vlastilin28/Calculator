@@ -5,7 +5,7 @@ namespace Calculator.OneArgument
 {
     public static class OneArgumentFactory
     {
-        public static IOneArgumentCalculator CreateCalculator2(string calculatorName)
+        public static IOneArgumentCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
             {

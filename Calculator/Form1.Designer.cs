@@ -50,7 +50,8 @@
             // 
             // button_plus
             // 
-            this.button_plus.Location = new System.Drawing.Point(50, 133);
+            this.button_plus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_plus.Location = new System.Drawing.Point(24, 132);
             this.button_plus.Name = "button_plus";
             this.button_plus.Size = new System.Drawing.Size(75, 23);
             this.button_plus.TabIndex = 0;
@@ -60,7 +61,8 @@
             // 
             // button_minus
             // 
-            this.button_minus.Location = new System.Drawing.Point(131, 133);
+            this.button_minus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_minus.Location = new System.Drawing.Point(105, 132);
             this.button_minus.Name = "button_minus";
             this.button_minus.Size = new System.Drawing.Size(75, 23);
             this.button_minus.TabIndex = 1;
@@ -70,7 +72,8 @@
             // 
             // button_multiply
             // 
-            this.button_multiply.Location = new System.Drawing.Point(50, 162);
+            this.button_multiply.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_multiply.Location = new System.Drawing.Point(24, 161);
             this.button_multiply.Name = "button_multiply";
             this.button_multiply.Size = new System.Drawing.Size(75, 23);
             this.button_multiply.TabIndex = 2;
@@ -80,7 +83,8 @@
             // 
             // button_divide
             // 
-            this.button_divide.Location = new System.Drawing.Point(131, 162);
+            this.button_divide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_divide.Location = new System.Drawing.Point(105, 161);
             this.button_divide.Name = "button_divide";
             this.button_divide.Size = new System.Drawing.Size(75, 23);
             this.button_divide.TabIndex = 3;
@@ -90,14 +94,14 @@
             // 
             // textBox_enterone
             // 
-            this.textBox_enterone.Location = new System.Drawing.Point(50, 22);
+            this.textBox_enterone.Location = new System.Drawing.Point(140, 11);
             this.textBox_enterone.Name = "textBox_enterone";
             this.textBox_enterone.Size = new System.Drawing.Size(100, 20);
             this.textBox_enterone.TabIndex = 4;
             // 
             // textBox_entertwo
             // 
-            this.textBox_entertwo.Location = new System.Drawing.Point(50, 48);
+            this.textBox_entertwo.Location = new System.Drawing.Point(140, 37);
             this.textBox_entertwo.Name = "textBox_entertwo";
             this.textBox_entertwo.Size = new System.Drawing.Size(100, 20);
             this.textBox_entertwo.TabIndex = 5;
@@ -105,7 +109,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 98);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(21, 97);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 7;
@@ -113,14 +118,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(343, 97);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(200, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 9;
             // 
             // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(343, 133);
+            this.Sinus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Sinus.Location = new System.Drawing.Point(200, 132);
             this.Sinus.Name = "Sinus";
             this.Sinus.Size = new System.Drawing.Size(75, 23);
             this.Sinus.TabIndex = 10;
@@ -130,17 +137,19 @@
             // 
             // Logarithm
             // 
-            this.Logarithm.Location = new System.Drawing.Point(424, 191);
+            this.Logarithm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Logarithm.Location = new System.Drawing.Point(281, 190);
             this.Logarithm.Name = "Logarithm";
             this.Logarithm.Size = new System.Drawing.Size(75, 23);
             this.Logarithm.TabIndex = 11;
-            this.Logarithm.Text = "Ln";
+            this.Logarithm.Text = "Log";
             this.Logarithm.UseVisualStyleBackColor = true;
             this.Logarithm.Click += new System.EventHandler(this.OneClick);
             // 
             // exponent
             // 
-            this.exponent.Location = new System.Drawing.Point(343, 162);
+            this.exponent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exponent.Location = new System.Drawing.Point(200, 161);
             this.exponent.Name = "exponent";
             this.exponent.Size = new System.Drawing.Size(75, 23);
             this.exponent.TabIndex = 12;
@@ -150,7 +159,8 @@
             // 
             // foursquare
             // 
-            this.foursquare.Location = new System.Drawing.Point(424, 162);
+            this.foursquare.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.foursquare.Location = new System.Drawing.Point(281, 161);
             this.foursquare.Name = "foursquare";
             this.foursquare.Size = new System.Drawing.Size(75, 23);
             this.foursquare.TabIndex = 13;
@@ -160,7 +170,8 @@
             // 
             // Cosinus
             // 
-            this.Cosinus.Location = new System.Drawing.Point(424, 133);
+            this.Cosinus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cosinus.Location = new System.Drawing.Point(281, 132);
             this.Cosinus.Name = "Cosinus";
             this.Cosinus.Size = new System.Drawing.Size(75, 23);
             this.Cosinus.TabIndex = 14;
@@ -170,7 +181,8 @@
             // 
             // xToPower
             // 
-            this.xToPower.Location = new System.Drawing.Point(50, 191);
+            this.xToPower.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.xToPower.Location = new System.Drawing.Point(24, 190);
             this.xToPower.Name = "xToPower";
             this.xToPower.Size = new System.Drawing.Size(75, 23);
             this.xToPower.TabIndex = 15;
@@ -180,17 +192,19 @@
             // 
             // xTo1mY
             // 
-            this.xTo1mY.Location = new System.Drawing.Point(131, 191);
+            this.xTo1mY.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.xTo1mY.Location = new System.Drawing.Point(105, 190);
             this.xTo1mY.Name = "xTo1mY";
             this.xTo1mY.Size = new System.Drawing.Size(75, 23);
             this.xTo1mY.TabIndex = 16;
-            this.xTo1mY.Text = "x^(1-y)";
+            this.xTo1mY.Text = "x^(1/y)";
             this.xTo1mY.UseVisualStyleBackColor = true;
             this.xTo1mY.Click += new System.EventHandler(this.Button_click);
             // 
             // DivisionOnOne
             // 
-            this.DivisionOnOne.Location = new System.Drawing.Point(343, 191);
+            this.DivisionOnOne.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DivisionOnOne.Location = new System.Drawing.Point(200, 190);
             this.DivisionOnOne.Name = "DivisionOnOne";
             this.DivisionOnOne.Size = new System.Drawing.Size(75, 23);
             this.DivisionOnOne.TabIndex = 17;
@@ -200,7 +214,8 @@
             // 
             // TenPower
             // 
-            this.TenPower.Location = new System.Drawing.Point(343, 220);
+            this.TenPower.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TenPower.Location = new System.Drawing.Point(200, 219);
             this.TenPower.Name = "TenPower";
             this.TenPower.Size = new System.Drawing.Size(75, 23);
             this.TenPower.TabIndex = 18;
@@ -210,7 +225,8 @@
             // 
             // Average
             // 
-            this.Average.Location = new System.Drawing.Point(50, 220);
+            this.Average.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Average.Location = new System.Drawing.Point(24, 219);
             this.Average.Name = "Average";
             this.Average.Size = new System.Drawing.Size(75, 23);
             this.Average.TabIndex = 19;
@@ -222,7 +238,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 300);
+            this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.ClientSize = new System.Drawing.Size(386, 261);
             this.Controls.Add(this.Average);
             this.Controls.Add(this.TenPower);
             this.Controls.Add(this.DivisionOnOne);

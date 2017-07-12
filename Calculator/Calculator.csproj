@@ -49,7 +49,7 @@
     <Compile Include="TwoArgument\Average.cs" />
     <Compile Include="OneArgument\DivisionOnOne.cs" />
     <Compile Include="OneArgument\Cosinus.cs" />
-    <Compile Include="TwoArgument\TenPower.cs" />
+    <Compile Include="OneArgument\TenPower.cs" />
     <Compile Include="TwoArgument\Addtion.cs" />
     <Compile Include="TwoArgument\Division.cs" />
     <Compile Include="OneArgument\exponent.cs" />
