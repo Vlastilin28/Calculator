@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System;
+using Calculator.TwoArgument;
+using NUnit.Framework;
 
 namespace Calculator.OneArgument
 {
@@ -16,6 +18,12 @@ namespace Calculator.OneArgument
                 var calculator = new DivisionOnOne();
                 var actualResult = calculator.Calculate(firstValue);
                 Assert.AreEqual(expected, actualResult);
+            }
+            [Test]
+            public void ErrorTest()
+            {
+                var calculator = new Division();
+                Assert.Throws<Exception>(() => calculator.Calculate(1,0));
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using Calculator.TwoArgument;
+﻿using System;
+using Calculator.TwoArgument;
 using NUnit.Framework;
 
 namespace Calculator.Test.TwoArgument
@@ -14,6 +15,13 @@ namespace Calculator.Test.TwoArgument
             var calculator = new XToPowerOfInverseY();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
+        }
+
+        [Test]
+        public void ErrorTest()
+        {
+            var calculator = new Division();
+            Assert.Throws<Exception>(() => calculator.Calculate(1, 0));
         }
     }
 }

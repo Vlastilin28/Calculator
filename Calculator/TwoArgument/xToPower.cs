@@ -6,6 +6,7 @@ namespace Calculator.TwoArgument
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
+            
             return Math.Pow(firstArgument , secondArgument);
         }
     }

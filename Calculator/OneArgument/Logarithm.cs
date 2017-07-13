@@ -6,6 +6,10 @@ namespace Calculator.OneArgument
     {
         public double Calculate(double firstArgument)
         {
+            if (firstArgument == 0)
+            {
+                throw new Exception("Число не должно равняться 0");
+            }
             return Math.Log10(firstArgument);
         }
     }

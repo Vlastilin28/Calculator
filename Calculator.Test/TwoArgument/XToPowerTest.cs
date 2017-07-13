@@ -1,4 +1,5 @@
-﻿using Calculator.TwoArgument;
+﻿
+using Calculator.TwoArgument;
 using NUnit.Framework;
 
 namespace Calculator.Test.TwoArgument
@@ -15,5 +16,6 @@ namespace Calculator.Test.TwoArgument
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
+
     }
 }
