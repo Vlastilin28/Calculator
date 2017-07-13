@@ -9,7 +9,7 @@ namespace Calculator.TwoArgument
         {
             if (secondArgument == 0)
             {
-                throw new Exception("Делитель на 0");
+                throw new Exception("Делитель равен 0");
             }
                 return firstArgument / secondArgument;
         }
