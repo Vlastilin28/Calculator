@@ -13,11 +13,19 @@ namespace Calculator
         }
         private void Button_click(object sender, EventArgs e)
         {
-            double numberOne = Convert.ToDouble(textBox_enterone.Text);
-            double numberTwo = Convert.ToDouble(textBox_entertwo.Text);
-            var calc = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calc.Calculate(numberOne, numberTwo);
-            label1.Text = Convert.ToString(result);
+            try 
+            {
+                double numberOne = Convert.ToDouble(textBox_enterone.Text);
+                double numberTwo = Convert.ToDouble(textBox_entertwo.Text);
+                var calc = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+                double result = calc.Calculate(numberOne, numberTwo);
+                label1.Text = Convert.ToString(result);
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
         }
         private void OneClick(object sender, EventArgs e)
         {
